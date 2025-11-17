@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [attachment_queue](attachment_queue/) | 18.0.1.0.0 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> <a href='https://github.com/sebastienbeau'><img src='https://github.com/sebastienbeau.png' width='32' height='32' style='border-radius:50%;' alt='sebastienbeau'/></a> | Base module adding the concept of queue for processing files
 [attachment_synchronize](attachment_synchronize/) | 18.0.1.0.0 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> <a href='https://github.com/sebastienbeau'><img src='https://github.com/sebastienbeau.png' width='32' height='32' style='border-radius:50%;' alt='sebastienbeau'/></a> <a href='https://github.com/GSLabIt'><img src='https://github.com/GSLabIt.png' width='32' height='32' style='border-radius:50%;' alt='GSLabIt'/></a> <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Attachment Synchronize
 [attachment_unindex_content](attachment_unindex_content/) | 18.0.1.0.0 | <a href='https://github.com/moylop260'><img src='https://github.com/moylop260.png' width='32' height='32' style='border-radius:50%;' alt='moylop260'/></a> <a href='https://github.com/ebirbe'><img src='https://github.com/ebirbe.png' width='32' height='32' style='border-radius:50%;' alt='ebirbe'/></a> <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> | Disable indexing of attachments
-[auditlog](auditlog/) | 18.0.2.0.2 |  | Audit Log
+[auditlog](auditlog/) | 18.0.2.0.3 |  | Audit Log
 [auto_backup](auto_backup/) | 18.0.1.0.1 |  | Backups database
 [autovacuum_message_attachment](autovacuum_message_attachment/) | 18.0.1.0.1 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | Automatically delete old mail messages and attachments
 [base_cron_exclusion](base_cron_exclusion/) | 18.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Allow you to select scheduled actions that should not run simultaneously.
@@ -41,11 +41,14 @@ addon | version | maintainers | summary
 [base_sequence_option](base_sequence_option/) | 18.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Alternative sequence options for specific models
 [base_sparse_field_list_support](base_sparse_field_list_support/) | 18.0.1.0.0 |  | add list support to convert_to_cache()
 [base_technical_user](base_technical_user/) | 18.0.1.0.1 |  | Add a technical user parameter on the company
+[base_temporary_action](base_temporary_action/) | 18.0.1.0.0 |  | This addon allows to create temporary actions
 [base_time_window](base_time_window/) | 18.0.1.1.0 |  | Base model to handle time windows
 [base_view_inheritance_extension](base_view_inheritance_extension/) | 18.0.1.0.1 |  | Adds more operators for view inheritance
-[database_cleanup](database_cleanup/) | 18.0.1.0.0 |  | Database cleanup
+[bus_alt_connection](bus_alt_connection/) | 18.0.1.0.0 |  | Needed when using PgBouncer as a connection pooler
+[database_cleanup](database_cleanup/) | 18.0.1.0.1 |  | Database cleanup
 [database_size](database_size/) | 18.0.1.0.2 |  | Database Size
 [dbfilter_from_header](dbfilter_from_header/) | 18.0.1.0.0 |  | Filter databases with HTTP headers
+[excel_import_export](excel_import_export/) | 18.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Base module for developing Excel import/export/report
 [fetchmail_attach_from_folder](fetchmail_attach_from_folder/) | 18.0.1.0.0 | <a href='https://github.com/NL66278'><img src='https://github.com/NL66278.png' width='32' height='32' style='border-radius:50%;' alt='NL66278'/></a> | Attach mails in an IMAP folder to existing objects
 [fetchmail_notify_error_to_sender](fetchmail_notify_error_to_sender/) | 18.0.1.0.0 |  | If fetching mails gives error, send an email to sender
 [html_text](html_text/) | 18.0.1.0.0 |  | Generate excerpts from any HTML field
